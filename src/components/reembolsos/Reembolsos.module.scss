@@ -1,6 +1,6 @@
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     border: solid red;
     width: 8vw;
@@ -9,9 +9,10 @@ header{
     }
 }
 
-main{
+.mainRb{
     display: flex;
     flex-direction: column;
+    //border: solid blue;
 }
 
 .containerCards{
@@ -31,7 +32,59 @@ main{
     align-items: center;
 }
 
-//article{
-//        width: 30vw;
-//        height: 20vh;        
-//   }
+.containerStatus{
+    width: 60vw;
+    height: 15vh;
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    div{
+        border: solid pink;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 20%;
+        height: 10vh;
+    }
+}
+
+.img1{
+    background-color: rgb(15, 162, 230);
+    border-radius: 6px;
+    width: 20%;
+    height: 5vh;
+    padding: 6px;
+}
+.img2{
+    background-color: orange;
+    border-radius: 6px;
+}
+.img3{
+    background-color: green;
+    border-radius: 6px;
+}
+.img4{
+    background-color: red;
+    border-radius: 6px;
+}
+
+.containerSistema{
+    display: flex;
+    width: 9vw;
+    border: solid;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.centralizar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid green;
+    //padding-left: 30rem;
+}

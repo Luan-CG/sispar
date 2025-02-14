@@ -19,7 +19,8 @@ function Reembolsos(){
             <p>Reembolsos</p>
         </header>
 
-        <main>
+        <main className={styles.mainRb}>
+            <section className={styles.centralizar}>
             <h1>Sistema de Reembolsos</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi aliquam saepe facilis qui adipisci neque velit temporibus.</p>
             <section className={styles.containerCards}>
@@ -39,6 +40,40 @@ function Reembolsos(){
                 </article>
 
             </section>
+
+            <section className={styles.containerStatus}>
+                <div>
+                    <img className={styles.img1} src={NumeroSolicitados} alt="" />
+                    <h4>182</h4>
+                    <p>Solicitados</p>
+                </div>
+
+                <div>
+                    <img className={styles.img2} src={NumeroAnalises} alt="" />
+                    <h4>74</h4>
+                    <p>Em análise</p>
+                </div>
+
+                <div>
+                    <img className={styles.img3} src={NumeroAprovados} alt="" />
+                    <h4>195</h4>
+                    <p>Aprovados</p>
+                </div>
+
+                <div>
+                    <img className={styles.img4}src={NumeroRejeitados} alt="" />
+                    <h4>41</h4>
+                    <p>Rejeitados</p>
+                </div>
+
+            </section>
+
+            <section className={styles.containerSistema}>
+            <img src={Sistema} alt="" />
+            <p>Sistema atualizado</p>
+            </section> 
+
+        </section>
         </main>
         </div>
     );
