@@ -1,0 +1,9 @@
+.main {
+  background-color: pink;
+}
+
+.containerLogin {
+  height: 100vh;
+  background-image: url(../../assets/imagem\ tela\ de\ login.png);
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=Login.module.css.map */
