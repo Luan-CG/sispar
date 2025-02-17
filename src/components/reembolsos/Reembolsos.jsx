@@ -10,9 +10,14 @@ import Sistema from "../../assets/Dashboard/Sistema-atualizado.png"
 import SolicitarHistorico from "../../assets/Dashboard/Solicitar - Histórico.png"
 import SolicitarReembolso from "../../assets/Dashboard/Solicitar - Reembolso.png"
 
+import NavBar from "../navbar/NavBar.jsx"
+
 function Reembolsos(){
     return(
-        <div>
+        <div className={styles.body}>
+
+        <NavBar />
+
         <header>
             <img src={Seta} alt="Seta header" />
             <img src={Home} alt="Icone casa header" />     
