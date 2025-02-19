@@ -1,0 +1,84 @@
+.headerSolicitacao{
+    background-color: red;
+    width: 20vw;
+    height: 6vh;
+    border: solid;
+}
+
+.layoutSolicitacao{
+    display: flex;
+}
+
+.containerPrincipalSolicitacao{
+    //background-color: aqua;
+    width: 95%;
+    
+}
+
+.formSolicitacao{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    //height: 25vh;
+    //background-color: aqua;
+    border: solid greenyellow;
+}
+
+.mainSolicitacao{
+
+}
+
+input, select{
+    width: 100%;
+    height: 4vh;
+    border-radius: 6px;
+    border: solid rgb(172, 172, 172); //3CBD4E1
+
+}
+
+label{
+    color: rgb(56, 56, 56); //pegar cor exata
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.grupo1{
+    //border: solid;
+    width: 30%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inputNome{
+   // border: solid red;
+    width: 45%;
+}
+.inputEmpresa{
+    width: 25%;
+    //border: solid pink;
+}
+.inputPrestContas{
+    width: 25%;
+    //border: solid tomato;
+}
+.inputMotivo{
+    width: 100%;
+    //border: solid;
+    input{
+        height: 10vh;
+    }
+}
+
+.barraVert{
+    height: 25vh;
+    background-color: #CBD4E1;
+    width: 0.1vw;
+}
+
+.grupo2{
+    border: solid brown;
+    width: 65%;
+}
