@@ -1,8 +1,8 @@
 .headerSolicitacao{
-    background-color: red;
+    //background-color: red;
     width: 20vw;
     height: 6vh;
-    border: solid;
+   //border: solid;
 }
 
 .layoutSolicitacao{
@@ -21,11 +21,12 @@
     width: 100%;
     //height: 25vh;
     //background-color: aqua;
-    border: solid greenyellow;
+    //border: solid greenyellow;
 }
 
 .mainSolicitacao{
-
+    display: flex;
+    flex-wrap: wrap;
 }
 
 input, select{
@@ -39,12 +40,12 @@ input, select{
 label{
     color: rgb(56, 56, 56); //pegar cor exata
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .grupo1{
-    //border: solid;
-    width: 30%;
+    border: solid;
+    width: 35%;
     height: 25vh;
     display: flex;
     align-items: center;
@@ -80,5 +81,69 @@ label{
 
 .grupo2{
     border: solid brown;
-    width: 65%;
+    width: 60%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.inputData{
+    border: solid green;
+    width: 20%;
+}
+
+.tipoDespesa{
+    border: solid blue;
+    width: 30%;
+}
+
+.centroDeCusto{
+    border: solid purple;
+    width: 45%;
+}
+
+.ordem, .divisoes, .pep, .distancia{
+    border: solid;
+    width: 8%;
+}
+
+.moeda, .valorFaturado, .valorKm, .despesa{
+    border: solid palevioletred;
+    width: 11%;
+}
+
+.botoes{
+    width: 14%;
+    display: flex;
+    justify-content: space-evenly;
+
+    .botaoSalvar{
+        background-color: rgb(17, 2, 102);
+        color: white;
+        width: 5vw;
+    }
+    .botaoDeletar{
+        width: 2vw;
+        background-color: aqua;
+    }
+}
+
+table{
+    width: 100%;
+    border: solid;
+    border-collapse: collapse;
+}
+
+th{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #23282F;
+    background-color: #CBD4E1;
+}
+
+th, td{
+    border: solid;
+    text-align: center;
 }
